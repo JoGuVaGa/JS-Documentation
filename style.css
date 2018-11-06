@@ -1,0 +1,53 @@
+/*navbar*/
+
+#navbar header {
+    border-bottom: solid;
+}
+
+#navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar {
+    position: fixed;
+    border-right: solid;
+    height: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: black;
+}
+
+#navbar ul:hover {
+    background-color: aliceblue;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+/*header*/
+
+header {
+    text-align: center;
+    font-size: 25px;
+    background-color: lightblue1;
+}
+
+/*main*/
+
+#main-doc {
+    position: absolute;
+}
+
+section li {
+    position: absolute;
+}
+
+code {
+    border-radius: 50px;
+    background-color: aliceblue;
+}
